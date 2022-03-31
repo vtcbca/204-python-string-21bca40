@@ -4,12 +4,10 @@
       *** """ 
 
 n=int(input("Enter No. of rows : "))
-k=2*n-2
 for i in range (n):
-    for j in range (k):
+    for j in range (l,n-i):
         print(end=" ")
-    k=k-2
     for j in range (i+1):
         print("* ",end="")
-    print("")
+    print()
         
